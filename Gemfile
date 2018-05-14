@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.8'
 gem 'bcrypt-ruby', '3.0.1'
 
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
